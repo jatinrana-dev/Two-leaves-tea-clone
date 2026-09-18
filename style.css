@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Reckless;
+    src: url(./Fonts/RecklessCondensedS-TRIAL-Book.woff);
+}
+@font-face {
+    font-family: Robot;
+    src: url(./Fonts/RobotoMono-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #faf8ed;
+}
+a{
+      text-decoration: none;
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.7vw;
+  border-bottom: 1px solid #201C1A;
+  position: sticky;
+  top: 0;
+  left: 0;
+  
+}
+.nav-part-1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: Reckless;
+  width: 25%;
+}
+.nav-part-1 a h3{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 200;
+}
+.nav-part-2{
+    justify-content: center;
+    width: 5vw;
+    height: auto;
+}
+.nav-part-3{
+    display: flex;
+    align-items: center;
+gap: 1.9vw;
+font-family: Robot;
+}
+.nav-part-3 a h3{
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 400;
+}
