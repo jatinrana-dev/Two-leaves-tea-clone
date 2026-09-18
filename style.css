@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Reckless;
-    src: url(./Fonts/RecklessCondensedS-TRIAL-Book.woff);
+  font-family: Reckless;
+  src: url(./Fonts/RecklessCondensedS-TRIAL-Book.woff);
 }
 @font-face {
-    font-family: Robot;
-    src: url(./Fonts/RobotoMono-Regular.ttf);
+  font-family: Robot;
+  src: url(./Fonts/RobotoMono-Regular.ttf);
 }
 * {
   margin: 0;
@@ -16,9 +16,8 @@ main {
   min-height: 100vh;
   background-color: #faf8ed;
 }
-a{
-      text-decoration: none;
-
+a {
+  text-decoration: none;
 }
 nav {
   display: flex;
@@ -28,11 +27,10 @@ nav {
   padding-left: 1vw;
   padding-right: 1vw;
   padding-top: 0.7vw;
-  border-bottom: 1px solid #201C1A;
+  border-bottom: 1px solid #201c1a;
   position: sticky;
   top: 0;
   left: 0;
-
 }
 .nav-part-1 {
   display: flex;
@@ -41,32 +39,65 @@ nav {
   font-family: Reckless;
   width: 25%;
 }
-.nav-part-1 a h3{
-    font-size: 1.5rem;
+.nav-part-1 a h3 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 200;
+}
+.nav-part-2 {
+  justify-content: center;
+  width: 5vw;
+  height: auto;
+}
+.nav-part-3 {
+  display: flex;
+  align-items: center;
+  gap: 1.9vw;
+  font-family: Robot;
+}
+.nav-part-3 a h3 {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 400;
+}
+#section-1 {
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  /* background-position: ; */
+  /* background-image: url(https://www.twoleavestea.com/cdn/shop/files/Yuzu_Hero_mobile_2dd2a935-ce43-49d1-b42c-0d816f2959dd.png?v=1789483608&width=720); */
+  justify-content: end;
+  flex-direction: column;
+  align-items: start;
+}
+#section-1 div {
+  position: absolute;
+  bottom: 6rem;
+  font-family: Reckless;
+  padding-left: 2rem;
+}
+#section-1 h1 {
+  font-size: 5rem;
+}
+#section-1 p {
+  padding-top: 2rem;
+  font-family: Reckless;
+  font-size: 1rem;
+  max-width: 49vh;
+  word-spacing: 0.3rem;
+  padding-bottom: 2rem;
+}
+#section-1 button{
+    padding: 1rem 4rem;
+    outline: none;
+    color: white;
+    background-color: #2A2957;
+    border-radius: 4rem;
+}
+#section-1 button:hover{
+    background-color: white
+    ;
     color: black;
-    font-weight: 200;
-}
-.nav-part-2{
-    justify-content: center;
-    width: 5vw;
-    height: auto;
-}
-.nav-part-3{
-    display: flex;
-    align-items: center;
-gap: 1.9vw;
-font-family: Robot;
-}
-.nav-part-3 a h3{
-    font-size: 0.8rem;
-    color: black;
-    font-weight: 400;
-}
-#section-1{
-    width: 100%;
-    height: 100vh;
-    background-size:contain;
-    background-position: center;
-    background-image: url(https://www.twoleavestea.com/cdn/shop/files/Yuzu_Hero_mobile_2dd2a935-ce43-49d1-b42c-0d816f2959dd.png?v=1789483608&width=720);
-    align-items: center;
+    transition: 0.25s;
+
 }
